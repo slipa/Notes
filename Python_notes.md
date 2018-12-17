@@ -16,7 +16,6 @@ with open(filepath) as fp:
 
 若对象的类型与参数二的类型相同则返回True。若参数二为一个元组，则若对象类型与元组中类型名之一相同即返回True。  
 
-test
 
 ```
 if not (isinstance(start_point, list) ) :

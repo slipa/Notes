@@ -52,7 +52,7 @@ deactivate
 ```
 
 
-## Fix failure on mounting windows disk
+### Fix failure on mounting windows disk
 ```
 sudo ntfsfix /dev/sda2
 ```
