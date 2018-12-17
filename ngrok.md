@@ -12,7 +12,7 @@
 ![ngrok install](images/ngrok_install.png)
 
 ### 使用ngrok
-例如說把你的 localhost:5000 對應到 https://c083b98a.ngrok.io
+把 localhost:5000 對應到 https://c083b98a.ngrok.io
 
 ```
 $cd <path/to/gnrok>
@@ -20,4 +20,4 @@ $./ngrok http 5000
 ```
 ![ngrok_running](images/ngrok_running.png)
 
-其中 https://c083b98a.ngrok.io 為自動產生，關掉terminal就消失了。外界可藉由該網址連到http://localhost:5000
+其中 https://c083b98a.ngrok.io 為系統自動產生，關掉terminal就消失了。外界可藉由該網址連到http://localhost:5000
