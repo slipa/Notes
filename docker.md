@@ -24,6 +24,8 @@ $ docker-compose down
 ```
 
 ## Compose file version 3 
+docker-compose.yml 使用yaml格式，yaml介紹可參考[Day 9 - 攥寫設定能不學嗎：yaml](https://ithelp.ithome.com.tw/articles/10193509)  
+
 目前最新的 Compose file 為版本 3，此文件會分成三大組態設定，分別為 services、networks 以及 volumes：
 
 **services** (top-level)
