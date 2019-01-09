@@ -108,3 +108,21 @@ GPIO.setmode(GPIO.BCM)
 [reference](https://www.raspberrypi.org/documentation/linux/usage/systemd.md)
 
 
+### 由Command Line Interface 查看圖檔屬性
+
+```
+$ file test01.png
+$ test01.png: PNG image data, 568 x 304, 8-bit/color RGB, non-interlaced
+```
+
+### 更改圖檔屬性
+
+先安裝imagemagick
+```
+$ sudo apt install imagemagick
+```
+```
+$ convert <img_in> -set colorspace Gray -separate -average <img_out>
+$ convert input.png -alpha off output.png​
+```
+
