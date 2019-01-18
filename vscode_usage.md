@@ -24,3 +24,17 @@ Alt+Up/Down
 
 [参考文章](http://stackoverflow.com/questions/37642045/use-virtualenv-with-python-with-visual-studio-code-in-ubuntu)
 
+
+### How to navigate back to the last cursor position
+
+On Ubuntu Linux:
+
+Ctrl+Alt+- .. navigate back
+
+Ctrl+Shift+- .. navigate forward
+
+On Windows:
+
+Alt+← .. navigate back
+
+Alt+→ .. navigate forward
